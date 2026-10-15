@@ -1,0 +1,67 @@
+TACSA EMPRESARIAL - NUEVA VERSIÓN PREMIUM (OCTUBRE 2026)
+====================================================
+
+NUEVO EN ESTA VERSIÓN:
+- Portada enfocada en diseño y desarrollo de páginas web.
+- Vista conceptual de página web en PC y móvil, creada con HTML/CSS (sin imágenes falsas de clientes).
+- Servicios web protagonistas: corporativas, comercio electrónico, landing pages,
+  rediseño web, integraciones y mantenimiento.
+- Portafolio con cuatro ejemplos: Sophy Candy, DIMACSA, Mosaicos GT y Huevos Castillo.
+- Proceso comercial, ventajas, cotizador que prepara WhatsApp y contacto destacado.
+- CCTV, redes, casas inteligentes y software preservados en una sección secundaria.
+- Diseño móvil, SEO básico, etiquetas accesibles, imágenes WebP optimizadas.
+
+ARCHIVOS PARA GITHUB PAGES:
+  index.html        (REEMPLAZAR)
+  styles.css        (REEMPLAZAR)
+  app.js            (REEMPLAZAR)
+  assets/           (SUBIR / ACTUALIZAR LOS CUATRO WEBP)
+
+Los archivos se suben a la raíz del repositorio y carpeta assets/ del sitio.
+No suba este README si prefiere mantener el repositorio público únicamente con archivos web.
+Los antiguos archivos PNG/JPG no se necesitan para esta nueva versión.
+
+REVISAR ANTES DE PUBLICAR:
+- Número de WhatsApp conservado del sitio original: +502 5460 9989.
+- La sección portafolio contiene ilustraciones conceptuales, NO capturas reales.
+  Publicar referencias a empresas solamente si se cuenta con su autorización;
+  sustituir las ilustraciones por capturas aprobadas para una versión comercial final.
+- El formulario NO envía correos; abre WhatsApp con un mensaje prellenado.
+- Los metadatos OG imagen y URL se pueden configurar cuando se confirme el dominio final.
+- Una vez publicado, comprobar menús, botones, formulario y visualización en celulares.
+
+IMPORTANTE: Conservar una copia de seguridad del repositorio antes de reemplazar los archivos.
+
+
+Actualización 2026-10-14:
+- Se agregaron los archivos assets/hero-real.webp y assets/hero-phone.webp.
+- El portafolio ahora incluye enlaces reales publicados.
+
+
+Actualización v2 (2026-10-14):
+- Se corrigió la cuadrícula de servicios (sin tarjeta huérfana) y la de portafolio (la 5.ª tarjeta ocupa todo el ancho).
+- Se reemplazó la imagen borrosa del teléfono del hero por una maqueta limpia en CSS. hero-real.webp ya no se usa (puede borrarla).
+- Se ocultan las notas flotantes en celular (chocaban con el botón de WhatsApp).
+- Título con mejor espaciado de letras; efectos hover en tarjetas; texto del servicio destacado con mejor contraste.
+- SEO: canonical, og:image, og:url, twitter:card y datos estructurados (ProfessionalService). Se agregó assets/og-image.png.
+  >>> CONFIRME EL DOMINIO: se usó https://www.tacsaempresarial.com/ como supuesto. Si es otro, reemplácelo en index.html (canonical, og:url, og:image, twitter:image y JSON-LD).
+- PORTAFOLIO CON CAPTURAS REALES: suba a assets/ estas imágenes (WebP, ~1200x760, parte superior de cada sitio):
+    portfolio-sophy.webp, portfolio-dimacsa.webp, portfolio-mosaicos.webp, portfolio-partycenter.webp, portfolio-urbano.webp
+  Si el archivo existe, reemplaza automáticamente la ilustración; si no existe, se mantiene la ilustración actual.
+
+
+Actualización v3 (2026-10-14): PALETA TIERRA Y ORO
+- Solo se cambiaron colores (CSS, theme-color e imagen og-image.png). Textos, estructura y funciones siguen igual.
+- No se recolorearon las ilustraciones de portafolio de cada cliente (Sophy Candy, DIMACSA, Mosaicos GT, Party Center, Desarrollo Urbano): usan los colores de la marca de cada uno.
+- logo.webp sigue azul (es imagen). Si se cambia por un logo en tierra/oro, reemplazar assets/logo.webp.
+- Las fotos de la sección "Tecnología integral" llevan un filtro cálido por CSS (se puede quitar borrando la línea .other-photo{filter...} al final de styles.css).
+- Los botones dorados llevan texto oscuro para mejor lectura.
+
+
+Actualización v4: LOGO VECTORIAL (Visión Sin Límites, tierra y oro)
+- El logo anterior era una imagen (site-logo.webp) con texto café oscuro sobre fondo café: se perdía y se deformaba/pixelaba al escalar. Se eliminó.
+- Nuevo: assets/logo-header.svg (encabezado, sin subtítulo para que se lea en pantallas chicas), logo-completo-oscuro.svg (pie de página/fondos oscuros), logo-completo-claro.svg (fondos claros/impresión), icono.svg.
+- Ícono simplificado: globo + ventana de navegador, en dorado. Es SVG: se ve nítido a cualquier tamaño y no se distorsiona.
+- Para WhatsApp Business / Facebook: assets/logo-whatsapp.png (640x640). logo.webp (512x512) también se actualizó.
+- Favicon: icono.svg, favicon-32.png y apple-touch-icon.png. og-image.png regenerada con el nuevo logo.
+- Suba TODOS los archivos de assets/ (y borre assets/site-logo.webp del repositorio).
